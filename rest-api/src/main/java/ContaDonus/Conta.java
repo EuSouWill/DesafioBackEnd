@@ -89,6 +89,7 @@ public class Conta {
 
                 System.out.print("Quanto deseja depositar: ");
                 valor = entrada.nextDouble();
+                depositar(valor);
 
 
                 break;
